@@ -1,0 +1,10 @@
+ul {
+    border: 2px solid rgb(29, 163, 101);
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+li {
+    color: darkblue;
+}
