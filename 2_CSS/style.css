@@ -1,4 +1,5 @@
-/* 4 - External */
+/* (ctrl + :) para atalho do comentario */
+/* - 4 - External */
 body {
     padding-bottom: 500px;
 }
@@ -10,3 +11,84 @@ h3 {
 p {
     color: rgb(194, 61, 176);
 }
+
+/* - 8 - Classes */
+.paragraph {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+    /* - 9 - IDS */
+        #exclusive-title{
+            background-color: purple;
+            color: yellow;
+            padding: 10px;
+        }
+
+        /* - 10 - Ordem das regras */
+        h2{
+            border-bottom: 2px solid red;
+        }
+
+        .titulo {
+            border-bottom: 3px solid blue;
+        }
+
+        #algum-titulo{
+            border-bottom: 4px solid green;
+        }
+
+        /* - 11 - Nome de cores */
+        .color-name{
+            color: crimson;
+        }
+
+        /* - 12 - hex */
+        .hex{
+            color: #55a398;
+        }
+        .hex-2{
+            color: #28f7a4;
+        }
+
+        /* - 13 - aprofundando em hex não precisa colocar 6 numeros ou letras */
+        .simple-hex{
+            color: #333;
+        }
+        .simple-hex-2{
+            color: #f3a;
+        }
+
+        /* - 14 - RGB */
+        .rgb{
+            color: rgb(255, 0, 0);
+        }
+        .mixed-rgb{
+            color: rgb(117, 67, 1);
+        }
+        /* - 15 - RGBA  muda a força da cor*/
+        .rgba {
+            color: rgba(9, 99, 218, 0.4);
+        }
+
+        /* - 16 - HSL */
+        .hsl{
+            color: hsl(80, 69%, 35%);
+        }
+        .hsl-2{
+            color: hsl(18, 73%, 85%);
+        }
+
+        /* - 17 - Background */
+        .bg{
+            background-color: #000;
+            color: yellow;
+        }
+        .bg-2{
+            background-color: #f3a;
+            color: #333;
+        }
+        
+
+
