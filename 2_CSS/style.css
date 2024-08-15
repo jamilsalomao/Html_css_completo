@@ -8,9 +8,9 @@ h3 {
     color: gold;
 }
 
-p {
+/* p {
     color: rgb(194, 61, 176);
-}
+} */
 
 /* - 8 - Classes */
 .paragraph {
@@ -89,6 +89,25 @@ p {
             background-color: #f3a;
             color: #333;
         }
+
+        /* - 18 - Background opacity */
+        .bg-opacity{
+            background-color: green;
+            opacity: 0.2;
+        }
+        .bg-opacity-2{
+           background-color: #999;
+           color: #000;
+        }
+
+        /* - 19 - rgba com opacidade */
+        .rgba-opacity{
+            background-color: rgba(90, 130, 20, 0.35);
+            color: #000;
+        }
+
+        /* - 20 - Imagens no background */
+        
         
 
 
