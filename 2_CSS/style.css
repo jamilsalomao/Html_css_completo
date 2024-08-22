@@ -97,7 +97,7 @@ h3 {
         }
         .bg-opacity-2{
            background-color: #999;
-           color: #000;
+           color: #ffffff;
         }
 
         /* - 19 - rgba com opacidade */
@@ -107,6 +107,214 @@ h3 {
         }
 
         /* - 20 - Imagens no background */
+        .bg-image{
+            background-image: url("../2_CSS/img/nature.jpg");
+            padding: 10px;
+            color: #fff;
+        }
+
+        /* - 21 - Centralizando bg image */
+        .not-centered-bg,
+        .centered-bg{
+            height: 400px;
+            width: 400px;
+            background-image: url(../2_CSS/img/bridge.jpg);
+        }
+
+        .centered-bg{
+            background-position: center;
+            background-size: cover;
+        }
+
+        /* - 22 - largura e altura */
+        .height-width{
+            height: 200px;
+            width: 100px;
+            background-color: red;
+        }
+
+        .height-width-2{
+            height: 300px;
+            background-color: #333;
+        }
+
+        /* - 23 - padding */
+        .without-padding,
+        .padding{
+            background-color: #111;
+            color: #fff;
+        }
+
+        .padding{
+            background-color: #333;
+            padding: 30px;
+        } 
+         
+        /* - 24 - padding individual */
+        .padding-individual{
+            background-color: #222;
+            color: #fff;
+            padding-top: 5px;
+            padding-left: 10px;
+            padding-right: 20px;
+            padding-bottom: 40px;
+        }
+
+        /* - 25 - shorthand padding */
+        .shorthand-padding{
+            background-color: #444;
+            padding: 6px 12px 18px 24px;
+        }
+
+        .shorthand-padding-2{
+            background-color: #555;
+            padding: 10px 20px;
+            /* padding: 10px 20px 10px 20px; */
+        }
+
+        /* - 26 - padding com width */
+        .without-border-box{
+            background-color: #444;
+            color: #fff;
+            width: 400px;
+            padding: 50px;
+        }
+
+        .border-box{
+            background-color: #666;
+            color: #fff;
+            width: 400px;
+            padding:50px;
+            box-sizing: border-box;
+        }
+
+        /* - 27 - border */
+        .border{
+            border: 5px solid red;
+            padding: 10px;
+        }
+
+        .border-2{
+            border: 2px dotted #931;
+            padding: 10px;
+        }
+
+        /* - 28 - borda individual */
+        .border-left{
+            border-left: 3px solid red;
+            background-color: #222;
+            padding: 25px;
+        }
+        .border-bottom{
+            border-bottom: 5px double #399;
+            background-color: #222;
+            padding: 20px;
+        }
+
+        /* - 29 - borda arredondada */
+        .rounded-p{
+            border: 4px solid blue;
+            background-color: #000;
+            color: blue;
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        .rounded-p-2{
+            background-color: #000;
+            color: blue;
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        /* - 30 - margem */
+        .margin {
+            margin: 10px;
+            background-color: #222;
+        }
+
+        .margin-top {
+            margin-top: 50px;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        .margin-shorthand {
+            background-color: #666;
+            margin: 5px 10px 15px 20px;
+        }
+
+        /* - 31 - box model */
+        .box-model {
+            margin: 20px;
+            padding: 15px 25px;
+            border: 3px solid rgb(255, 128, 0);
+            border-radius: 7px;
+            width: 200px;
+            height: 300px;
+            background-image: url(../2_CSS/img/nature.jpg);
+            color: #fff;
+        }
+
+        /* - 33 - text align */
+        .text-alignment{
+            text-align: right;
+        }
+
+        .container-center{
+            text-align: center;
+            width: 300px;
+            border: 1px solid red;
+        }
+
+        /* - 34 - decoração de texto */
+        .underline {
+            text-decoration: underline;
+        }
+
+        .line-trough {
+            text-decoration: line-through;
+        }
+
+        .remove-underline {
+            text-decoration: none;
+            color: red;
+        }
+
+        /* - 35 - Transformação de texto */
+        .upper {
+            text-transform: uppercase;
+        }
+
+        .lower {
+            text-transform: lowercase;
+        }
+
+        /* - 36 - Espaçamento de letras */
+        .spacing {
+            letter-spacing: 8px;
+        }
+
+        /* - 37 - Fontes */
+        .serif {
+            font-family: georgia;
+        }
+
+        .sans-serif {
+            font-family: Helvetica;
+        }
+
+        .monospace {
+            font-family: Courier 'Courier New';
+        }
+
+        .cursive {
+            font-family: cursive;
+        }
+
+        .fantasy {
+            font-family: fantasy;
+        }
         
         
 

@@ -1,0 +1,15 @@
+#box-model {
+            margin: 20px;
+            padding: 15px 25px;
+            border: 3px solid rgb(255, 128, 0);
+            border-radius: 7px;
+            width: 200px;
+            height: 200px;
+            background-image: url(../2_CSS/img/bridge.jpg);
+            color: #a73e3e;
+}
+.texto {
+    background-color: rgb(125, 125, 207);
+    outline: 3px solid rgb(232, 148, 0);
+    border-radius: 5px;
+}
